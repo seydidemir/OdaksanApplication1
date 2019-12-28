@@ -38,7 +38,8 @@ public class GirisSayfasi extends AppCompatActivity {
     TextView altText;
     FirebaseAuth firebaseAuth;
     ProgressDialog pd;
-
+//
+    //
 
     private FirebaseAuth.AuthStateListener mAuthStateListener;
 
