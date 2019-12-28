@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".teklifolusturSayfasi">
+
+    <EditText
+        android:id="@+id/sirketadiText"
+        android:layout_width="249dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="81dp"
+        android:ems="10"
+        android:hint="Şirket Adı"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/teklifbasligiText"
+        android:layout_width="249dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="81dp"
+        android:ems="10"
+        android:hint="Teklif Başlığı"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/yetkiliadiText"
+        android:layout_width="249dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginEnd="81dp"
+        android:ems="10"
+        android:hint="Yetkili Adı"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sirketadiText" />
+
+    <EditText
+        android:id="@+id/urunadiText"
+        android:layout_width="249dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="81dp"
+        android:ems="10"
+        android:hint="Ürün veya Hizmet Adı"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yetkiliadiText" />
+
+    <EditText
+        android:id="@+id/verilenteklifText"
+        android:layout_width="249dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginEnd="81dp"
+        android:ems="10"
+        android:hint="Verilen Teklif"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/urunadiText" />
+
+    <EditText
+        android:id="@+id/aciklamaText"
+        android:layout_width="266dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginEnd="81dp"
+        android:ems="10"
+        android:hint="Açıklama"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/teklifverButon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="340dp"
+        android:layout_marginBottom="88dp"
+        android:text="Nakliyat Ödemesi"
+        app:layout_constraintBottom_toTopOf="@+id/aciklamaText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:id="@+id/sirketCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:text="Şirket"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <CheckBox
+        android:id="@+id/odaksanCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="80dp"
+        android:text="ODAK-SAN"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <Button
+        android:id="@+id/teklifverButon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="24dp"
+        android:text="Teklif Ver!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aciklamaText" />
+
+    <Button
+        android:id="@+id/anasayfaBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AnaSayfa" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<!-- Linear layou yerine cardview olmalıydı ama yapamadım-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginStart="8dp"
+    android:layout_marginEnd="8dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+
+
+        <TextView
+            android:id="@+id/kullaniciAdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/departmanTxt"
+            android:layout_alignParentStart="true"
+            android:text="Vedat Temiz"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            />
+
+        <TextView
+        android:id="@+id/departmanTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yönetim"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        />
+
+
+        <TextView
+            android:id="@+id/kullaniciTel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:text="0505 992 88 39"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/kullaniciAdi"            />
+
+
+    </RelativeLayout>
+</LinearLayout>

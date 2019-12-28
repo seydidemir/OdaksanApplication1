@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KullaniciAnaSayfa">
+
+    <Button
+        android:id="@+id/cikisButon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="448dp"
+        android:text="ÇIKIŞ YAP"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kullanicilarBtn"
+        android:layout_width="274dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="56dp"
+        android:text="KULLANICILAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/urunEkleBtn"
+        android:layout_width="274dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="56dp"
+        android:text="TEKLİF OLUŞTUR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/faturalanacakTekliflerBtn"
+        android:layout_width="274dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="356dp"
+        android:layout_marginEnd="56dp"
+        android:text="ONAYLANMIŞ TEKLİFLER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/urunlerBtn"
+        android:layout_width="274dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="56dp"
+        android:text="ÜRÜN EKLE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kullaniciEkleBtn"
+        android:layout_width="274dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="56dp"
+        android:text="ÜRÜNLER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/faturalanmışTekliflerBtn"
+        android:layout_width="274dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="408dp"
+        android:layout_marginEnd="56dp"
+        android:text="ONAY BEKLEYEN TEKLİFLER"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

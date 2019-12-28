@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "617133852978",
+    "firebase_url": "https://odaksanmuhendislikv1.firebaseio.com",
+    "project_id": "odaksanmuhendislikv1",
+    "storage_bucket": "odaksanmuhendislikv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617133852978:android:2854dae1bfaa0c238baf2b",
+        "android_client_info": {
+          "package_name": "com.example.odaksanmuhendislikv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617133852978-e75ih2gqpnq18p623s9ca35264acoe40.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.odaksanmuhendislikv1",
+            "certificate_hash": "9997a3c529f9e9d87f23e66b79cf69540b9037bc"
+          }
+        },
+        {
+          "client_id": "617133852978-eo8cp6lss7bo61ua2j55djf9ho77acbk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsXDB1W2cDt1XGpllNFvoiV3f8MR24Vyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617133852978-eo8cp6lss7bo61ua2j55djf9ho77acbk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
